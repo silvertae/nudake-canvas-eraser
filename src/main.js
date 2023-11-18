@@ -8,7 +8,7 @@ document.querySelector("#app").innerHTML = `
   <main>
   <div id="content">
     <div id="eraser" class="relative">
-      <div class="absolute bg-flower bg-no-repeat bg-cover bg-center w-screen h-screen" style="touch-action: none;">
+      <div class="absolute bg-[url('./assets/flower.jpeg')] bg-no-repeat bg-cover bg-center w-screen h-screen" style="touch-action: none;">
         <div id="percentage" class="absolute bottom-5 right-5 text-3xl text-white"></div>  
         <canvas id="imgCanvas" class="w-full h-full"></canvas>
       </div>
